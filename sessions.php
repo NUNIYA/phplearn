@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
         // Set Session variable
         $_SESSION['username'] = $username;
         // Redirect user to another page
-        header('Location: phplearn\extras\dashboard.php');
+        header('Location: extras/dashboard.php');
     } else {
         echo 'Incorrect username or password';
     }
